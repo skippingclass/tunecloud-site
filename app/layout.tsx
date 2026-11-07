@@ -1,11 +1,18 @@
 import type { Metadata } from 'next';
 import './globals.css';
+
 export const metadata: Metadata = {
-  title: 'TuneCloud — твоя музыка. Твои правила.',
-  description: 'Преврати свою коллекцию в личный стриминг. Красивый плеер, синхронная лирика, умная очередь и OpenSubsonic. На твоём сервере.',
+  title: 'TuneCloud — Your music. Your rules.',
+  description: 'Self-hosted personal music streaming. Modern web player, synchronized lyrics, clean queue management, and OpenSubsonic API compatibility on your own server.',
   icons: { icon: '/favicon.svg' },
-  openGraph: { title: 'TuneCloud — твоя музыка. Твои правила.', description: 'Личный музыкальный стриминг, который принадлежит тебе.', images: ['/media/home.webp'] },
+  openGraph: {
+    title: 'TuneCloud — Your music. Your rules.',
+    description: 'Self-hosted music streaming you truly own.',
+    images: ['/media/home.webp'],
+  },
 };
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="ru"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}</body></html>;
 }
+
