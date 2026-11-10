@@ -68,8 +68,8 @@ const views: ViewItem[] = [
       ru: 'Каждое слово — в своём моменте.',
     },
     detail: {
-      en: 'Real TuneCloud screen recording: OG Buda, 163ONMYNECK, Yanix — "Выдох".',
-      ru: 'Реальная запись TuneCloud. OG Buda, 163ONMYNECK, Yanix — «Выдох».',
+      en: 'Real TuneCloud screen recording: Playboi Carti — "Not Real".',
+      ru: 'Реальная запись TuneCloud. Playboi Carti — «Not Real».',
     },
   },
   {
@@ -552,8 +552,8 @@ export default function Home() {
                 <InlineDemo
                   label={
                     lang === 'ru'
-                      ? 'Демо синхронной лирики: Выдох'
-                      : 'Synced lyrics demo: Vydokh'
+                      ? 'Демо синхронной лирики: Not Real'
+                      : 'Synced lyrics demo: Not Real'
                   }
                   lang={lang}
                 />
@@ -712,14 +712,14 @@ export default function Home() {
             <InlineDemo
               label={
                 lang === 'ru'
-                  ? 'Выдох — демонстрация синхронных текстов'
-                  : 'Synced lyrics demo: Vydokh'
+                  ? 'Not Real — демонстрация синхронных текстов'
+                  : 'Synced lyrics demo: Not Real'
               }
               lang={lang}
             />
             <div className="cinema-credit">
               <AudioLines size={15} />
-              <span>«Выдох» · OG Buda, 163ONMYNECK, Yanix</span>
+              <span>«Not Real» · Playboi Carti</span>
               <span>
                 {lang === 'ru' ? 'ЗАПИСАНО В TUNECLOUD' : 'CAPTURED IN TUNECLOUD'}
               </span>
